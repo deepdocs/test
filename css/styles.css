@@ -1,0 +1,176 @@
+body {
+  font-family: Roboto;
+}
+#header{
+  margin: 20px;
+  background-color: white;
+  color:#423F3E;
+  vertical-align: middle;
+}
+
+.container-fluid{
+  padding: 3% 3%;
+}
+
+hr{
+   color: #423F3E;
+   height: 0.1px;
+   margin: 0;
+}
+.header-elements{
+
+}
+.four-buttons{
+    margin-left: 30px;
+    padding:40px 0 0 20px;
+}
+.search-bar{
+  margin-left: 150px;
+    padding:40px 0 0 10px;
+    width: 60%;
+    font-family: sans-serif;
+
+}
+.logo-image{
+  margin-left: 80px;
+  width:200px;
+}
+
+
+.navbar{
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1rem;
+  font-family: Roboto;
+  color:#423F3E;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #D8B6A4;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color:#630000 ;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D8B6A4;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #EEEBDD;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: #EEEBDD;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 15px;
+
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+
+  p {
+    font-family: Roboto;
+    font-size: 2.5em;
+    color: #EEEBDD;
+    background-image: none;
+    background-color: transparent;
+  }
+
+
+
+  #sale {
+
+  margin-left: 200px;
+
+    height: 690px;
+    width: 1020px;
+    background-image:
+        url("/Users/AletaBent/Documents/build websites/objet9/images/wintersale.png");
+    background-color: white;
+
+  }
+
+  .wintersale{
+  position:relative;
+  top:220px;
+  left:50px;
+  font-family: Roboto-bold;
+  font-size: 2.5rem;
+  color: #EEEBDD;
+  text-decoration: none;
+
+  }
+
+  a:hover {
+  color: #630000;
+}
