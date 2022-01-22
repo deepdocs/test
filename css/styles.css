@@ -149,15 +149,10 @@ input:checked + .slider .off
 
 
   #sale {
-
-  margin-left: 200px;
-
-    height: 690px;
-    width: 1020px;
-    background-image:
-        url("wintersale.png");
-    background-color: white;
-
+    background-image: url("https://github.com/deepdocs/test/blob/main/images/wintersale.png");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
   }
 
   .wintersale{
