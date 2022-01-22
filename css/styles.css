@@ -155,7 +155,7 @@ input:checked + .slider .off
     height: 690px;
     width: 1020px;
     background-image:
-        url(./images/wintersale.png);
+        url(blob/main/images/wintersale.png);
     background-color: white;
 
   }
