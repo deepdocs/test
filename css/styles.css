@@ -155,7 +155,7 @@ input:checked + .slider .off
     height: 690px;
     width: 1020px;
     background-image:
-        url("/Users/AletaBent/Documents/build websites/objet9/images/wintersale.png");
+        url("images/wintersale.png");
     background-color: white;
 
   }
