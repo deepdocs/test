@@ -149,7 +149,7 @@ input:checked + .slider .off
 
 
   #sale {
-    background-image: url("https://github.com/deepdocs/test/blob/main/images/wintersale.png?raw=true");
+    background-image: url(https://github.com/deepdocs/test/blob/main/images/wintersale.png?raw=true);
     height: 900px;
     width: 100%;
     background-size: cover;
